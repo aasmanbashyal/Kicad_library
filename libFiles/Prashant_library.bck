@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 6V_Relay
+D 6V  Single Pole Relay, SPDT
+K Miniature Single Pole Relay
+$ENDCMP
+#
+$CMP LCD16X2
+D WC1602A0-SFYLYNC06
+K Generic LCD 16x2 Alphanumeric 16pin Green Backlight
+F http://www.kamami.pl/dl/wc1602a0.pdf
+$ENDCMP
+#
+$CMP PC123
+D DC Optocoupler, DIP-4
+K NPN DC Optocoupler
+$ENDCMP
+#
+#End Doc Library
