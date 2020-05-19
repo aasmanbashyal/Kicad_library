@@ -1,4 +1,4 @@
-# Kicad_library
+# Kicad_library (forked from github.com/aasmanbashyal)
 This is library for those component usually use
 -Add the schemetics from the "libFiles" folder
 -And then add footprints from "modfFiles.pretty"
