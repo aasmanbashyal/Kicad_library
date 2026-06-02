@@ -1,7 +1,7 @@
 (footprint "Fuse_Holder"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "F1"
 		(at -4.7371 -6.4516 0)
@@ -22,18 +22,6 @@
 			(font
 				(size 0.8 0.8)
 				(thickness 0.2)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "dac3fd2c-534f-43ba-b346-82345e214d76")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -118,7 +106,9 @@
 		(remove_unused_layers no)
 		(uuid "5746765b-c9e9-4ff7-9ae5-ab9cafe75835")
 	)
+	(embedded_fonts no)
 	(model "_3D/Used/fuse_cq-200c.wrl"
+		(hide yes)
 		(offset
 			(xyz 0 0.5079999924 0)
 		)
@@ -127,6 +117,17 @@
 		)
 		(rotate
 			(xyz 0 0 90)
+		)
+	)
+	(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Schurter_0031.7701.xx.step"
+		(offset
+			(xyz 0 0.3 0)
+		)
+		(scale
+			(xyz 2.1 1.7 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
 		)
 	)
 )

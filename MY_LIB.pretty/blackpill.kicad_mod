@@ -1,4 +1,4 @@
-(footprint "bluepill"
+(footprint "blackpill"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "bluepill"
+	(property "Value" "blackpill"
 		(at -0.07 -17.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -462,15 +462,15 @@
 		(uuid "2bdf86fe-8214-4910-b0a7-ac607e6ec763")
 	)
 	(embedded_fonts no)
-	(model "/home/shra/Kicad Footprint/stm32f103c8t6-blue-pill-board-1.snapshot.2/STM32F103C8T6_Blue_Pill v6.step"
+	(model "/home/shra/Downloads/Kicad-STM32-master/Packages3d/YAAJ_BlackPill_PinHeaders_B_SWD/YAAJ_BlackPill_PinHeaders_B_SWD_cp.step"
 		(offset
-			(xyz 10.5 -41.01 3)
+			(xyz -8.5 10 1)
 		)
 		(scale
-			(xyz 1 1 1)
+			(xyz 0.87 1.2 1)
 		)
 		(rotate
-			(xyz -90 -0 -0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

@@ -1,7 +1,7 @@
 (footprint "JST_01x04_ENCODER"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 1.475 -1.775 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "2c950c7c-ae99-4f56-9be6-9987e6f158ce")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 3.075 2.225 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f21adbcc-1f30-43a5-8e03-642bc74d8a06")
 		(effects
 			(font
 				(size 1 1)
@@ -348,5 +335,17 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "f425dda5-7242-4573-9673-d3fbbe506b2f")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.step"
+		(offset
+			(xyz 2.9 -2 0)
+		)
+		(scale
+			(xyz 1.02 0.7 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
 	)
 )
