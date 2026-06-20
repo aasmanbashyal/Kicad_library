@@ -1,19 +1,133 @@
-(module Fuse_Holder (layer F.Cu) (tedit 5ADE0D9F)
-  (fp_text reference F1 (at -4.7371 -6.4516) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value "FUSE BUCK" (at -0.154 -0.098 90) (layer F.SilkS)
-    (effects (font (size 0.8 0.8) (thickness 0.2)))
-  )
-  (fp_line (start -12.2809 -5.1054) (end 12.7191 -5.1054) (layer F.SilkS) (width 0.6))
-  (fp_line (start 12.7191 -5.1054) (end 12.7191 4.1046) (layer F.SilkS) (width 0.6))
-  (fp_line (start 12.7191 4.1046) (end -12.2809 4.1046) (layer F.SilkS) (width 0.6))
-  (fp_line (start -12.2809 4.1046) (end -12.2809 -5.1054) (layer F.SilkS) (width 0.6))
-  (pad 1 thru_hole circle (at 11.176 -0.508 90) (size 3.81 3.81) (drill 0.762) (layers *.Cu *.Mask F.SilkS))
-  (pad 2 thru_hole circle (at -10.795 -0.508 90) (size 3.81 3.81) (drill 0.762) (layers *.Cu *.Mask F.SilkS))
-  (model _3D/Used/fuse_cq-200c.wrl
-    (at (xyz 0 0.02 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 90))
-  )
+(footprint "Fuse_Holder"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "F1"
+		(at -4.7371 -6.4516 0)
+		(layer "F.SilkS")
+		(uuid "e81aa0c3-f931-4830-94a9-b4fa0a6cf022")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FUSE BUCK"
+		(at -0.154 -0.098 90)
+		(layer "F.SilkS")
+		(uuid "b626a872-63ba-4d6f-8f0b-678491962ca9")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94830e82-0c6d-49ee-9cac-fdd334aecf17")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e05b52a1-08c0-499e-a86e-358c2840f6f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -12.2809 -5.1054)
+		(end 12.7191 -5.1054)
+		(stroke
+			(width 0.6)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f92103a6-fc87-47e6-8b33-5e20420021ef")
+	)
+	(fp_line
+		(start -12.2809 4.1046)
+		(end -12.2809 -5.1054)
+		(stroke
+			(width 0.6)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "08d9394a-b3bf-4a10-bae3-c98c4b3401dc")
+	)
+	(fp_line
+		(start 12.7191 -5.1054)
+		(end 12.7191 4.1046)
+		(stroke
+			(width 0.6)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5d5a9975-0c8d-40a9-8239-cafd5a8b2089")
+	)
+	(fp_line
+		(start 12.7191 4.1046)
+		(end -12.2809 4.1046)
+		(stroke
+			(width 0.6)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "51f7908f-8789-4e08-ad1e-aa14deec8b11")
+	)
+	(pad "1" thru_hole circle
+		(at 11.176 -0.508 90)
+		(size 3.81 3.81)
+		(drill 1)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "245a15a7-6c92-42eb-8fb2-4be4fdb9b87b")
+	)
+	(pad "2" thru_hole circle
+		(at -10.795 -0.508 90)
+		(size 3.81 3.81)
+		(drill 1)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "5746765b-c9e9-4ff7-9ae5-ab9cafe75835")
+	)
+	(embedded_fonts no)
+	(model "_3D/Used/fuse_cq-200c.wrl"
+		(hide yes)
+		(offset
+			(xyz 0 0.5079999924 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+	(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Schurter_0031.7701.xx.step"
+		(offset
+			(xyz 0 0.3 0)
+		)
+		(scale
+			(xyz 2.1 1.7 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

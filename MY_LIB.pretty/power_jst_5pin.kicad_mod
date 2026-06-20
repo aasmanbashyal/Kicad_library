@@ -1,0 +1,197 @@
+(footprint "power_jst_5pin"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "JST EH series connector, B05B-EH-A, 2.50mm pitch, top entry")
+	(tags "connector jst eh top vertical straight")
+	(property "Reference" "J3"
+		(at 0.9 -2.375 0)
+		(layer "F.SilkS")
+		(uuid "27026c63-ee9b-4c6c-813e-5c80906f5259")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Conn_01x05"
+		(at 3.675 -0.85 0)
+		(layer "F.Fab")
+		(uuid "04c75433-7407-4c25-8bf5-a74f342f4728")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 5.15 4.425 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e369d7f-a7fe-4c7f-89fe-a750443f475c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 5.15 4.425 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a92cb8e-1b4c-423c-b561-c51306e5c1ba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0.07 0.107)
+		(end 20.136 0.107)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9e233f23-9ce0-4fa9-8f2b-8f71927678ec")
+	)
+	(fp_line
+		(start 0.07 0.615)
+		(end 19.755 0.615)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d12cd968-ce11-4752-89ee-4deb15a30032")
+	)
+	(fp_line
+		(start 0.07 4.552)
+		(end 0.07 0.107)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f2e71473-782b-4679-93df-3e173bf8102b")
+	)
+	(fp_line
+		(start 0.07 9.505)
+		(end 0.07 4.044)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dec5af32-5f41-4a70-9957-7a0ec1a0a916")
+	)
+	(fp_line
+		(start 20.136 0.107)
+		(end 20.136 9.505)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "63bebac5-7231-4f06-bee3-1e2afc2e4ef3")
+	)
+	(fp_line
+		(start 20.136 9.505)
+		(end 0.07 9.505)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c433cc5a-c36a-4e7e-89dc-f0a0cfa7d58b")
+	)
+	(fp_line
+		(start 20.15 0.625)
+		(end 19.35 0.625)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "34346d92-347f-452c-8857-fd7f8b87cf24")
+	)
+	(fp_line
+		(start 0.1589 4.5139)
+		(end 0.1716 4.5139)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.Adhes")
+		(uuid "99be3939-0d0c-49f7-9a59-b5e8e3ce3aa4")
+	)
+	(fp_line
+		(start 6.293 9.4669)
+		(end 6.293 9.4542)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.Adhes")
+		(uuid "b7cbbfd1-4d67-47b2-8982-a7032d2cf1b7")
+	)
+	(pad "1" thru_hole oval
+		(at 2.5 4.475)
+		(size 2.8 3.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c05a52c0-7db4-42e7-8677-ea9b00ca718e")
+	)
+	(pad "2" thru_hole oval
+		(at 6.325 4.425)
+		(size 2.8 3.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5d4f5398-f4d7-4403-be8e-cda3490fd13f")
+	)
+	(pad "3" thru_hole oval
+		(at 10.15 4.425)
+		(size 2.8 3.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bac876ff-54c0-4b19-bb83-daf119d9934a")
+	)
+	(pad "4" thru_hole oval
+		(at 13.975 4.45)
+		(size 2.8 3.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cbfa30b3-b72e-4b44-8b1e-7c94dba8b822")
+	)
+	(pad "5" thru_hole oval
+		(at 17.8 4.45)
+		(size 2.8 3.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cf3dd6b5-ada7-40d5-a47a-2185de5b490c")
+	)
+	(embedded_fonts no)
+	(model "Connectors_JST.3dshapes/JST_EH_B05B-EH-A_05x2.50mm_Straight.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

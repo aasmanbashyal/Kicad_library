@@ -1,0 +1,141 @@
+(footprint "Solar_Connector_3pin"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Bornier d'alimentation 3 pins")
+	(tags "DEV")
+	(property "Reference" "J13"
+		(at 5 -6 0)
+		(layer "F.SilkS")
+		(uuid "242f2f48-f4f9-4532-a8b3-07f25930d420")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Conn_01x03"
+		(at 5 6.5 0)
+		(layer "F.Fab")
+		(uuid "fd033245-205d-4a48-8bbc-e04c0b9bc448")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd85cf49-f496-4962-9e7c-a4435ae17f1d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "49ee34de-d623-43d3-ba33-886f2f5d1c09")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.75 -5)
+		(end 17 -5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2da2430f-13e1-40c0-8274-652555dcb410")
+	)
+	(fp_line
+		(start -6.75 5)
+		(end -6.75 -5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "761f307b-2d3f-40c3-a6b7-00f9cdd938aa")
+	)
+	(fp_line
+		(start 17 -5)
+		(end 17 5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "78d9842b-19ec-43c7-a8e4-f0315ba67175")
+	)
+	(fp_line
+		(start 17 5)
+		(end -6.75 5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e3f509f-c5aa-43c2-b591-7420204090eb")
+	)
+	(fp_line
+		(start -6.75 4.25)
+		(end 17 4.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "0d4ce21d-c23d-4d7f-92e0-b5227e520089")
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 0)
+		(size 3.5 3.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "de48ed84-ac79-409f-8d79-dcc778303510")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 3.5 3.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "804813b8-4791-4c43-b3fa-9cde9c95b817")
+	)
+	(pad "3" thru_hole circle
+		(at 12.5 0)
+		(size 3.5 3.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cfd8ccff-8547-49a1-bd13-4c0ebf59dac3")
+	)
+	(embedded_fonts no)
+	(model "_3D/Used/bornier3.wrl"
+		(offset
+			(xyz 5.079999924 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

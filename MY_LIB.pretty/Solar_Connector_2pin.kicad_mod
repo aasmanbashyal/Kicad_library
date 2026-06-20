@@ -1,0 +1,108 @@
+(footprint "Solar_Connector_2pin"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.6 -0.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a6419f95-94ff-4baa-b237-f7db35c4c0c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Solar_Connector_2pin"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "25dfa936-1df7-4be9-aab7-17d8131e864f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.45 -0.075 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "632f5361-2750-48ea-83a9-08b694b31a7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.45 -0.075 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "930d0d58-0561-4a65-be90-a73f02f310b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 10.05 -7.525)
+		(end 10.05 7.475)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7d1ca21d-30bf-4219-b92b-bb3e629e98b6")
+	)
+	(fp_rect
+		(start -0.45 -7.525)
+		(end 20.55 7.475)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "710f4ecc-d67d-4684-a415-c1c54a974cb2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d0590da2-9eaa-4702-990f-1dc2a5cd3967")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 5.7 0)
+		(size 3 2.5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0452922d-7409-4b08-99a3-587a6cda52c0")
+	)
+	(pad "2" thru_hole oval
+		(at 14.975 0)
+		(size 3 2.5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1a850621-4f65-4b6b-9cd3-ae5943168bc4")
+	)
+	(embedded_fonts no)
+)
